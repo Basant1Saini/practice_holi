@@ -10,7 +10,7 @@ document.getElementById('dataform').addEventListener('submit', function(e){
     //clear form
     this .reset();
 });
-document.getElementById('downloadbtn').addEventListener('click', function(){
+document.getElementById('downloadBtn').addEventListener('click', function(){
     //create worksheet
     const ws = XLSX.utils.json_to_sheet(data);
     //create workbook and add worksheet
